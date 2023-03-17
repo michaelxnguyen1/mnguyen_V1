@@ -2,11 +2,11 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Brittany Chiang',
+    title: 'Michael Nguyen',
     description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
+      'Michael Nguyen is an aspiring software engineer who loves to make the world around him beautiful.',
+    siteUrl: 'https://michaelnguyen.com', // No trailing slash allowed!
+    image: 'src/images/me.jpg', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bchiang7',
   },
   plugins: [
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Brittany Chiang',
-        short_name: 'Brittany Chiang',
+        name: 'Michael Nguyen',
+        short_name: 'Michael Nguyen',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
