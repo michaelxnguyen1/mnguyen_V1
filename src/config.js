@@ -8,15 +8,15 @@ module.exports = {
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      url: 'https://www.instagram.com/waddupitsmike/?hl=en',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://twitter.com/michaelxnguyen1',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/michael-nguyen-6',
+      url: 'https://www.linkedin.com/in/michael-nguyen-617abc/',
     },
   ],
 

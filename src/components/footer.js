@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { Icon } from '@components/icons';
 import { socialMedia } from '@config';
+//import { size } from 'lodash';
 
 const StyledFooter = styled.footer`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -105,22 +106,32 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-        <a href="https://github.com/bchiang7/v4">
-          <div>Designed &amp; Built by Brittany Chiang</div>
+        <p>
+          <span style={{ color: '#64ffda' }}>
+            &quot;Copyright <span style={{ 'font-size': '18.5px' }}>&copy;</span>{' '}
+            michaelnguyen.com&quot;
+          </span>
+          <a href="https://github.com/bchiang7/v4">
+            <div>&quot;Designed &amp; Built by Brittany Chiang&quot;</div>
 
-          {githubInfo.stars && githubInfo.forks && (
-            <div className="github-stats">
-              <span>
-                <Icon name="Star" />
-                <span>{githubInfo.stars.toLocaleString()}</span>
-              </span>
-              <span>
-                <Icon name="Fork" />
-                <span>{githubInfo.forks.toLocaleString()}</span>
-              </span>
-            </div>
-          )}
-        </a>
+            {githubInfo.stars && githubInfo.forks && (
+              <div className="github-stats">
+                <span>
+                  <Icon name="Star" />
+                  <span>{githubInfo.stars.toLocaleString()}</span>
+                </span>
+                <span>
+                  <Icon name="Fork" />
+                  <span>{githubInfo.forks.toLocaleString()}</span>
+                </span>
+              </div>
+            )}
+          </a>
+
+          <a href="https://github.com/michaelxnguyen1" style={{ 'margin-left': '-8px' }}>
+            <div>&quot;Modified by Michael Nguyen&quot;</div>
+          </a>
+        </p>
       </StyledCredit>
     </StyledFooter>
   );
