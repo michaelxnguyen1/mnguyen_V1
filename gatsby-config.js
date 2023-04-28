@@ -7,7 +7,7 @@ module.exports = {
       'Michael Nguyen is an aspiring software engineer who loves to make the world around him beautiful.',
     siteUrl: 'https://michaelnguyen.com', // No trailing slash allowed!
     image: 'src/images/me.jpg', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '@michaelxnguyen1',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
